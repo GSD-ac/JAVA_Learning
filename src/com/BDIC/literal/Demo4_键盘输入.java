@@ -18,10 +18,6 @@ public class Demo4_键盘输入 {
         //文本
         String str=sc.next();
 
-        //输入单个字符的方法
-        Scanner s=new Scanner(System.in);
-        char operator=s.next().charAt(0);
-
         System.out.println(a + " " + b + " " + str);
     }
 }
